@@ -88,21 +88,23 @@
   text-align: center;
   padding: 20px;
 }
+.about-text {
+   max-width: 400px;
+}
 
 .about-container {
   display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
   flex-direction: row-reverse;
-  justify-content: space-around;
-  /* align-items: center; */
+  justify-content: space-between;
   padding: 20px;
 }
 .about-text > h1 {
   font-size: 2rem;
-  /* padding: 10px 0; */
 }
 .about-text > p {
   font-family: "Fira Sans", sans-serif;
-  max-width: 600px;
   font-size: 1.2rem;
   padding: 10px 0;
 }
