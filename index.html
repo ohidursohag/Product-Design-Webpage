@@ -1,26 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon">
-   <link rel="stylesheet" href="./Css/styles.css">
-   <title>GeekFolio</title>
-</head>
-<body>
-   <nav class="header">
-      <div class="logo_image">
-         <img width="200px" src="./logo/logo-dark.png" alt="Logo">
-      </div>
-      <div class="menu">
-         <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Contact Us</li>
-         </ul>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Alegreya:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Gruppo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/styles.css" />
+    <title>GeekFolio</title>
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header>
+      <nav class="header-contianer">
+        <div class="logo_image">
+          <img width="180px" src="./logo/logo-dark.png" alt="Logo" />
+        </div>
+        <div class="menu">
+          <ul class="items">
+            <li class="item">Home</li>
+            <li class="item">About Us</li>
+            <li class="item">Services</li>
+            <li class="item">Contact Us</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Banner Section Start -->
+      <section>
+        <div class="banner-container container-background">
+          <div class="banner-text">
+            <h1>
+              Better design for your <br />
+              digital products
+            </h1>
+            <p>
+              We are a creative studio specializing in UI/UX design, development
+              and strategy.
+            </p>
+            <button class="btn" type="button">Explore more</button>
+          </div>
 
-   </nav>
-</body>
+          <div class="banner-image">
+            <img src="./images/banner.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- About Us Section -->
+      <section>
+        <h1 class="about-title">About Us</h1>
+        <div class="about-container">
+          <div class="about-text">
+            <h1>
+              We grow brands through <br />
+              bold & strategic creative
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ipsum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <button class="btn" type="button">Contact with Us</button>
+          </div>
+          <div class="about-image">
+            <img width="400px" src="./images/section.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="our-service-container container-background">
+         <h1 class="service-title">Our Service's</h1>
+         <div class="our-service-box-container">
+            <div class="service-items">
+               <img src="/icon/icon_1.png" alt="" class="service-icon">
+               <h1>Digital Art</h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit officia ea aut perspiciatis animi odit, harum doloremque sunt nisi incidunt est excepturi veritatis libero odio laboriosam hic quidem architecto quaerat?</p>
+               <button class="btn service-btn" type="button">Details</button>
+            </div>
+            <div class="service-items">
+               <img src="/icon/icon_2.png" alt="" class="service-icon">
+               <h1>Digital Art</h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit officia ea aut perspiciatis animi odit, harum doloremque sunt nisi incidunt est excepturi veritatis libero odio laboriosam hic quidem architecto quaerat?</p>
+               <button class="btn service-btn" type="button">Details</button>
+            </div>
+            <div class="service-items">
+               <img src="/icon/icon_3.png" alt="" class="service-icon">
+               <h1>Digital Art</h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit officia ea aut perspiciatis animi odit, harum doloremque sunt nisi incidunt est excepturi veritatis libero odio laboriosam hic quidem architecto quaerat?</p>
+               <button class="btn service-btn" type="button">Details</button>
+            </div>
+         </div>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <div class="fotter-container">
+         <div class="short-info">
+            <img class="logo" src="/logo/logo-light.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quasi dolor molestias deserunt voluptas est harum libero totam, quo corporis.</p>
+         </div>
+         <div class="useful-links">
+          <h2>Useful Links</h2>
+          <li>About us</li>
+          <li>Careers</li>
+          <li>News & Artciles</li>
+          <li>legal Notice</li>
+         </div>
+         <div class="useful-links">
+          <h2>Supports</h2>
+          <li>Help Center</li>
+          <li>Contact Us</li>
+          <li>FAQ</li>
+          <li>Parent Community</li>
+         </div>
+         <div class="useful-links">
+          <h2>Contact Information</h2>
+          <p>Feel free to contact & reach us !! <br>
+            3557 Derek Drive, Orlando, Florida</p>
+          <li>+1(456)657-887</li>
+          <li>info@domain.com</li>
+         </div>
+      </div>
+    </footer>
+  </body>
 </html>
